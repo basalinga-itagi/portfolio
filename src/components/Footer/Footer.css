@@ -1,0 +1,5 @@
+footer{
+    /* background: linear-gradient(65deg, grey, lightgreen); */
+    background-image: linear-gradient(120deg,#c5fff4 -10%,white 110%);
+    color: black;
+  }

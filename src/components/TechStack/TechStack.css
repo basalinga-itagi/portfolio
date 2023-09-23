@@ -1,0 +1,70 @@
+.techstack{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.techstack h1{
+        color: rgb(231, 96, 33);
+}
+
+.techstack hr {
+    color: blue;
+    height:2px;
+    width:400px;
+    margin:10px auto;
+}
+
+.techstack p {
+   font-weight:bold ;
+}
+.techstack img{
+    width: 100px;
+    height: 100px;
+}
+
+.techstack-list-container {
+    display: flex;
+    justify-content: center;
+    /* row-gap: 100px; */
+    gap: 20px;
+    /* width:60%; */
+    flex-wrap: wrap;
+    padding: 12px;
+  }
+  
+  .stack-container {
+    /* width: 120px; */
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-left: 14px;
+    margin-top: 10px;
+    padding: 0 2px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .stack-container p {
+    color: rgb(231, 96, 33);
+    margin-left: 4px;
+  }
+
+  .stack-container:hover{
+    transition: all 1s ease;
+    transform:translateY(-10px) ;
+  }
+
+  @media screen and (max-width: 500px) {
+    .techstack {
+        margin-top: 20px;
+        padding: 10px;
+      margin-left: 60px;
+      background-image: linear-gradient(120deg,#c5fff4 -10%,white 110%);
+      width: 100vw;
+    }
+
+    .techstack-list-container {
+      justify-content: space-between;
+    }
+  }
