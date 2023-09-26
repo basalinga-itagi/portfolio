@@ -25,6 +25,11 @@ const TechStack = () => {
     },
     {
       id: 5,
+      name: "REACT NATIVE",
+      url: "https://pbs.twimg.com/profile_images/446356636710363136/OYIaJ1KK_400x400.png",
+    },
+    {
+      id: 5,
       name: "NODE JS",
       url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_91H3OVet4ezeSGW3p9S8GBCCBv4cCrzOI4hhCtNtzX6ynbypGxB6C2SwS7cC3gj7elA&usqp=CAU",
     },

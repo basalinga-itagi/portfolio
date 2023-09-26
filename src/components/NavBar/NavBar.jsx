@@ -14,18 +14,17 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { ThemeContext } from "../../context/ThemeContext";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
+import Profile from "../../assets/profile.jpg";
+
 const NavBar = () => {
   const [theme, setTheme] = useContext(ThemeContext);
   console.log("CONTEXT", theme);
   return (
     <header>
       <nav className="navbarr">
-        <Zoom top>
-          <img
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg"
-            alt="profile"
-          />
-        </Zoom>
+        {/* <Zoom top> */}
+        <img src={Profile} alt="profile" />
+        {/* </Zoom> */}
         <div className="menu">
           <AiOutlineMenu />
           <Link

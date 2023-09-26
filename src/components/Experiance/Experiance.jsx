@@ -11,7 +11,7 @@ import { FaNodeJs } from "react-icons/fa";
 const Experiance = () => {
   return (
     <div className="experiance">
-      <h1>Experiance</h1>
+      <h1>Experience</h1>
       <hr style={{ height: 12, color: "red" }} />
       <p>
         Including Programing Languages,frameworks,databases,front-end and
@@ -37,7 +37,7 @@ const Experiance = () => {
         Management, Team Leading
       </p> */}
         </VerticalTimelineElement>
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
@@ -49,7 +49,7 @@ const Experiance = () => {
             Frontend Developer
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
       </VerticalTimeline>
     </div>
   );

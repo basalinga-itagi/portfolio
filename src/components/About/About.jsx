@@ -1,17 +1,13 @@
 import React from "react";
 import "./About.css";
+import Profile from "../../assets/profile.jpg";
 
 const About = () => {
   return (
     <div className="about">
       <div className="row">
         <div className="col-sm-8 col-md-4 col-lg-4 col-xl-4 profile-img">
-          <img
-            width={170}
-            height={170}
-            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?cs=srgb&dl=pexels-pixabay-220453.jpg&fm=jpg"
-            alt=""
-          />
+          <img width={170} height={170} src={Profile} alt="" />
         </div>
         <div className="col-md-8 col-lg-8 col-xl-8 ">
           <h1>About Me</h1>

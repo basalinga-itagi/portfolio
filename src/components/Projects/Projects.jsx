@@ -9,7 +9,7 @@ const Projects = () => {
   const projects = [
     {
       role: "Full Stack Web",
-      url: "https://static.wixstatic.com/media/6df414_34fd6ac0edcd48f2b974722a7385f728~mv2.jpg",
+      url: "https://play.google.com/store/apps/details?id=com.bloodcells.customer&hl=en&gl=US",
       name: "Bloodcells Cart Web",
       imageSrc: `${bdCart}`,
       tech: ["React", "Node js", "Express", "MongoDb"],
@@ -18,16 +18,16 @@ const Projects = () => {
     },
     {
       role: "Full Stack Mobile App",
-      url: "https://play-lh.googleusercontent.com/r0mv0kCEZP_6wGt8fAge57zMQW_drGY6KJSuTrbS1lJ67OGv140QtXoAClElyMCNVlA",
+      url: "https://play.google.com/store/apps/details?id=com.bloodcells.collector&hl=en",
       name: "Sample Collector App",
       imageSrc: `${phebot}`,
       tech: ["React Native", "Node js", "Express", "MongoDb"],
       content:
-        "BloodcellsKart providing services dealing with Pathology and radiology ",
+        "It will guide you to the patient's home address and will inform you about the sample drop off point.",
     },
     {
       role: "Full Stack Web",
-      url: "https://media.licdn.com/dms/image/C4D0BAQHFCyP-TWNtVA/company-logo_200_200/0/1655879601754?e=2147483647&v=beta&t=-dAQF1DkesSNxGn4KwxDGflbGMF7F-RSu5f4gijnSCk",
+      url: "https://gallopsclub.com/",
       name: "Gallops Club Web",
       imageSrc: `${gallop}`,
       tech: ["React", "Node js", "Express", "MongoDb"],
@@ -35,19 +35,11 @@ const Projects = () => {
     },
     {
       role: "Full Stack Mobile App",
-      url: "https://media.licdn.com/dms/image/C4D0BAQHFCyP-TWNtVA/company-logo_200_200/0/1655879601754?e=2147483647&v=beta&t=-dAQF1DkesSNxGn4KwxDGflbGMF7F-RSu5f4gijnSCk",
+      url: "https://play.google.com/store/apps/details?id=com.gallopsclubapp&hl=en",
       name: "Gallops Club App",
       imageSrc: `${gallop}`,
       tech: ["React Native", "Node js", "Express", "MongoDb"],
       content: "Your Trusted Source for Accurate India Horse Race Predictions",
-    },
-    {
-      role: "Full Stack",
-      url: "https://media.licdn.com/dms/image/C4D0BAQHFCyP-TWNtVA/company-logo_200_200/0/1655879601754?e=2147483647&v=beta&t=-dAQF1DkesSNxGn4KwxDGflbGMF7F-RSu5f4gijnSCk",
-      name: "Bloodcells Cart Web",
-      imageSrc: `${phebot}`,
-      tech: ["React", "Node js", "Express", "MongoDb"],
-      content: "",
     },
   ];
   return (
@@ -91,7 +83,11 @@ const Projects = () => {
                           </div>
                         </div>
                         <p className="project-content">{project.content}</p>
-                        <a className="ad-btn" href="">
+                        <a
+                          className="ad-btn"
+                          href={project.url}
+                          target="_blank"
+                        >
                           View
                         </a>
                       </div>

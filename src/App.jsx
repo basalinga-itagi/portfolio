@@ -23,20 +23,18 @@ const App = () => {
       <TechStack />
       <Projects />
       <Contact />
-      <Footer />
-      {/* <ScrollToTop
+      <ScrollToTop
         smooth
         // color="white"
-        style={
-          {
-            // position: "absolute",
-            // backgroundColor: "#104963",
-            // bottom: 10,
-            // borderRadius: 80,
-            // padding: 4,
-          }
-        }
-      /> */}
+        style={{
+          // position: "absolute",
+          backgroundColor: "transparent",
+          // bottom: 10,
+          // borderRadius: 80,
+          // padding: 4,
+        }}
+      />
+      <Footer />
     </div>
   );
 };

@@ -5,6 +5,7 @@ import {
   AiFillGithub,
   AiFillCheckCircle,
 } from "react-icons/ai";
+import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
 // import { ToastContainer, toast } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
@@ -59,8 +60,11 @@ const Contact = () => {
             <div className="row contact-icon">
               <h3 className="">Contact With</h3>
               <span style={{ marginTop: -30 }}>
-                <a href=" https://github.com/basalinga-itagi" target="_blank">
-                  <AiFillGithub color="black" size={34} className="ms-2 mx-4" />
+                <a
+                  href="https://web.whatsapp.com/send?phone=8904452859"
+                  target="_blank"
+                >
+                  <BsWhatsapp color="green" size={34} className="ms-2 mx-4" />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/basalingappa-itagi-9ab071247"
